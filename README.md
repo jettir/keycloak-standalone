@@ -6,7 +6,7 @@ Example Dockerfile with Keycloak server.
 
 To boot in standalone mode
 
-docker run -p 8080:8080 jettir/keycloak-standalone
+docker run -p 8080:8080 jettir/keycloak_standalone
 
 http://localhost:8080/auth
 
