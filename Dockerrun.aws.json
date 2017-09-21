@@ -1,0 +1,10 @@
+{
+  "AWSEBDockerrunVersion": 1,
+  "Image": {
+  	"Name":"jettir/keycloak-standalone"
+  },
+  "Ports":[
+	{"ContainerPort":"8080"}
+  ]
+
+}

@@ -27,8 +27,8 @@ ENV JBOSS_HOME /opt/jboss/keycloak
 #such as an OpenShift Router or Apache Proxy
 RUN sed -i -e 's/<http-listener /& proxy-address-forwarding="${env.PROXY_ADDRESS_FORWARDING}" /' $JBOSS_HOME/standalone/configuration/standalone.xml
 
-EXPOSE 8080
-#EXPOSE 8443
+#EXPOSE 8080
+EXPOSE 8443
 
 
 #ENTRYPOINT [ "/opt/jboss/docker-entrypoint.sh" ]
